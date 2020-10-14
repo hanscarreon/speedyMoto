@@ -1,0 +1,7 @@
+{
+  "name": "speedyMoto",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
