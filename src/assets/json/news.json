@@ -41,6 +41,49 @@
             "subTitle":"Bobby Fong and Lorenzo Zanetti took victories in Indianapolis as the Yamaha man was crowned king at the Brickyard",
             "desc":"Three things of note jump out after a three-HONOS Superbike race weekend at Indianapolis Motor Speedway: for starters, Italian Lorenzo Zanetti ended a winless drought for Ducati in AMA Superbike racing that dated back to 2010. Then there was Bobby Fong’s arrival as a bonafide MotoAmerica Superbike star with a weekend that saw him win two races and finish second in the only one he didn’t win. And it all wrapped up with the bow on top being the fact that Cameron Beaubier emerged from a somewhat difficult weekend with a fifth MotoAmerica Superbike Championship in his back pocket. For the first time all season, Monster Energy Attack Performance Yamaha’s Beaubier wasn’t the dominant force at Indy. With the weight of trying to put the championship on ice in the penultimate round, Beaubier had some struggles. He crashed out of Saturday’s race one and it put a visible dent in his confidence for Sunday’s two races. Even with the pressure, he persevered and finished on the podium in both races – third in race two and second in race three. With that, he takes an insurmountable 97-point lead to WeatherTech Raceway Laguna Seca in two weeks where he hopes to return to his winning ways in an attempt to match Josh Hayes’ 16-win season from 2012.",
             "source":"MotoAmerica"
+        },
+        {
+            "id": 7,
+            "title":"Viñales fastest in delayed Aragon MotoGP™ FP1",
+            "subTitle":"Cold conditions saw the opening premier class session delayed by half an hour, Championship leader Quartararo crashes on Friday morning",
+            "desc":"Maverick Viñales (Monster Energy Yamaha MotoGP) topped a very cool Gran Premio Michelin® de Aragon FP1, the Spaniard setting a 1:49.866 to lead a Yamaha trio at the top. Petronas Yamaha SRT teammates Franco Morbidelli and Fabio Quartararo completed the top three, both crashed on Friday morning though.",
+            "source": "motogp.com"
+        },
+        {
+            "id":8,
+            "title":"Yamaha: no Rossi replacement planned for Aragon",
+            "subTitle":"Monster Energy Yamaha MotoGP Team Manager Massimo Meregalli expects the Italian to return in Valencia, no stand-in currently on the cards",
+            "desc":"Speaking to both motogp.com pitlane reporter Simon Crafar and Sky Sport Italia MotoGP during MotoGP™ FP1 at the Gran Premio Michelin® de Aragon, Monster Energy Yamaha MotoGP Team Manager Massimo Meregalli has admitted that there are currently no plans to replace Valentino Rossi for the MotorLand Aragon double headers.",
+            "source":"motogp.com"
+        },
+        {
+            "id":9,
+            "title":"Binder bags top spot in chilly Moto3™ FP1 in Aragon",
+            "subTitle":"Ambient air temperature of eight degrees at the start of the session meant it was a cold start to the Michelin Aragon Grand Prix",
+            "desc":"Ambient air temperature of eight degrees at the start of the session meant it was a cold start to the Michelin Aragon Grand Prix",
+            "source":"motogp.com"
+        },
+        {
+            "id":10,
+            "title":"Social media sends best wishes to Rossi",
+            "subTitle":"Following his positive COVID-19 test ahead of the Aragon GP, fans have sent their best wishes to the nine-time World Champion",
+            "desc": "@ValeYellow46 Not you too, Vale!! I hope it's nothing serious & really hoping to see you back on track in a few weeks time. Get well soon, Vale!!! 🙌🙌🙌🤜🤛  @Vlady46 19 hours ago @MotoGP @ValeYellow46 Damn. Wishing him a speedy recovery 👊 Luke @_LukeMoons 19 hours ago  @ValeYellow46 Stay strong 💪💪💪 Kannan Subramaniam @neykanish 19 hours ago Speedy recovery and get well soon @ValeYellow46 Ranggi Dias @ranggidias 19 hours ago @ValeYellow46 Forza, Vale! Ivan Dellabianca @ivndb 19 hours ago @ValeYellow46 Get well soon Vale 🙏👍 marco barendswaard @mar_B_ond 19 hours ago @ValeYellow46 Get well soon Legend Panggil saja @fhrzl_r 19 hours ago @ValeYellow46 Get well soon.... Dewi @Dewiido 19 hours ago @ValeYellow46 Forza Vale! Alexis @alexiscayetano 19 hours ago @ValeYellow46 we hope you are feeling okay and get better soon. Best wishes 👍😍. We will miss you this weekend. Xx Sharon Bennett @clickbenno 19 hours ago Praying for @ValeYellow46. Get well soon. 🙏 tori 🌹 @cloakedeuphoria 19 hours ag @MotoGP @ValeYellow46 Get well soon vale!",
+            "source": "motogp.com"
+        },
+        {
+            "id":11,
+            "title":"Arenas to make Moto2™ step with Aspar in 2021",
+            "subTitle":"The current Moto3™ Championship leader will compete in his sixth season with the team, moving up the ranks after a strong 2020",
+            "desc":"Albert Arenas will make the leap up to Moto2™ with the Aspar Team in 2021. The current Moto3™ World Championship leader will compete in his sixth season with the team next year and will do so by moving up to the intermediate category, after having fought for the Moto3™ title in a season in which he has accumulated three victories and a total of five podiums to date. Next year he will be Aron Canet’s teammate and will ride a Speed Up.",
+            "source":"Aspar Team"
+        },
+        {
+            "id":12,
+            "title":"MP1 brings Indonesia into MotoGP™ with Gresini Racing",
+            "subTitle": "A new multi-year deal begins in 2021, including a new racing academy aimed at promoting and supporting young Indonesian riders",
+            "desc":"MP1, an Indonesian company operating in the ever-growing events and sports management industry, will be the new partner of the #GresiniFamily. Starting in 2021, through a multiple-year agreement that sees MP1 become a partner of the team across all categories: MotoGP™, Moto2™, Moto3™ and MotoE™.",
+            "source":"Gresini Racing"
         }
+
     ]
 }

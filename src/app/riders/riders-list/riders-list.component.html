@@ -10,7 +10,7 @@
 </ion-header>
   <ion-content class="ion-padding">
     <ion-card  *ngFor="let data of riders; index as i">
-      <ion-card-header class=" avatar-border">
+      <ion-card-header class="avatar-border">
         <ion-card-title>{{ data.name }}</ion-card-title>
         <ion-card-subtitle>{{ data.team }}</ion-card-subtitle>
         <a class="" (click)="toggleSection(i)" data-toggle="collapse" href="#carrer-{{ data.id }}" ><img class="avatar-img" src="http://speedymoto.tindahans.online/riders-img/{{data.id}}.png"/></a>
