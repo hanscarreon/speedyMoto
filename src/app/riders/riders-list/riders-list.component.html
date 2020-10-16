@@ -1,0 +1,33 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="primary">
+      <ion-button color="danger">
+        <ion-icon slot="icon-only" ios="ellipsis-horizontal" md="ellipsis-vertical"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title class="header-title">Speedy Motor</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="ion-padding">
+<ion-card  *ngFor="let data of riders; index as i">
+  <div class="text-center avatar-border">
+    <h1>{{ data.name }}</h1>
+    <a class="" (click)="toggleSection(i)" data-toggle="collapse" href="#carrer-{{ data.id }}" ><img class="avatar-img" src="http://speedymoto.tindahans.online/riders-img/{{data.id}}.png"/></a>
+  </div>
+  <div class="row p-0 ion-padding">
+    <div class="col-12 text-center">
+      <a class="" >
+        <ion-icon class="icon-size" (click)="toggleSection(i)" *ngIf="data.open"  name="chevron-down-outline" data-toggle="collapse" attr.href="#carrer-{{ data.id }}"   ></ion-icon>
+        <ion-icon class="icon-size" (click)="toggleSection(i)" *ngIf="!data.open" name="chevron-up-outline" data-toggle="collapse" attr.href="#carrer-{{ data.id }}" ></ion-icon>
+      </a>
+    </div>
+  </div>
+  <div class="content ion-padding collapse "  id="carrer-{{ data.id }}">
+    <p class="ion-text-justify"> {{data.desc}} </p>
+  </div>
+
+</ion-card>
+  
+</ion-content>

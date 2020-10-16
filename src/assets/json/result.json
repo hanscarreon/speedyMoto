@@ -1,0 +1,167 @@
+
+{
+    "WorldStanding2020":[
+        {
+            "pos":1,
+            "name":"Fabio QUARTARARO",
+            "bike":"Yamaha",
+            "nation":"FRA",	
+            "points":"115"
+        },
+        {
+            "pos":2,
+            "name":"Joan MIR",
+            "bike":"Suzuki",
+            "nation":"SPA",	
+            "points":"105"
+        },
+        {
+            "pos":3,
+            "name":"Andrea DOVIZIOSO",
+            "bike":"Ducati",
+            "nation":"ITA",	
+            "points":"97"
+        },
+        {
+            "pos":4,
+            "name":"Maverick VIÑALES",
+            "bike":"Yamaha",
+            "nation":"SPA",	
+            "points":"96"
+        },
+        {
+            "pos":5,
+            "name":"Takaaki NAKAGAMI",
+            "bike":"Honda",
+            "nation":"JPN",	
+            "points":"81"
+        },
+        {
+            "pos":6,
+            "name":"Franco MORBIDELLI",
+            "bike":"Yamaha",
+            "nation":"ITA",	
+            "points":"77"
+        },
+        {
+            "pos":7,
+            "name":"Jack MILLER",
+            "bike":"Ducati",
+            "nation":"AUS",	
+            "points":"75"
+        },
+        {
+            "pos":8,
+            "name":"Pol ESPARGARO",
+            "bike":"KTM",
+            "nation":"SPA",	
+            "points":"73"
+
+        },
+        {
+            "pos":9,
+            "name":"Miguel OLIVEIRA",
+            "bike":"KTM",
+            "nation":"POR",	
+            "points":"69"
+        },
+        {
+            "pos":10,
+            "name":"Danilo PETRUCCI",
+            "bike":"Ducati",
+            "nation":"ITA",	
+            "points":"64"
+        },
+        {
+            "pos":11,
+            "name":"Brad BINDER",
+            "bike":"KTM",
+            "nation":"RSA",	
+            "points":"62"
+        },
+        {
+            "pos":12,
+            "name":"Alex RINS",
+            "bike":"Suzuki",
+            "nation":"SPA",	
+            "points":"60"
+        },
+        {
+            "pos":13,
+            "name":"Valentino ROSSI",
+            "bike":"Yamaha",
+            "nation":"ITA",	
+            "points":"58"
+        },
+        {
+            "pos":14,
+            "name":"Alex MARQUEZ",
+            "bike":"Honda",
+            "nation":"SPA",	
+            "points":"47"
+        },
+        {
+            "pos":15,
+            "name":"Johann ZARCO",
+            "bike":"Ducati",
+            "nation":"FRA",	
+            "points":"47"
+        },
+        {
+            "pos":16,
+            "name":"Francesco BAGNAIA",
+            "bike":"Ducati",
+            "nation":"ITA",	
+            "points":"42"
+        },
+        {
+            "pos":17,
+            "name":"Aleix ESPARGARO",
+            "bike":"Aprilia",
+            "nation":"SPA",	
+            "points":"24"
+        },
+        {
+            "pos":18,
+            "name":"Iker LECUONA",
+            "bike":"KTM",
+            "nation":"SPA",	
+            "points":"18"
+        },
+        {
+            "pos":19,
+            "name":"Cal CRUTCHLOW",
+            "bike":"Honda",
+            "nation":"GBR",	
+            "points":"13"
+        },
+        {
+            "pos":20,
+            "name":"Bradley SMITH",
+            "bike":"Aprilia",
+            "nation":"GBR",	
+            "points":"11"
+        },
+        {
+            "pos":21,
+            "name":"Stefan BRADL",
+            "bike":"Honda",
+            "nation":"GER",	
+            "points":"8"
+        },
+        {
+            "pos":22,
+            "name":"Tito RABAT",
+            "bike":"Ducati",
+            "nation":"SPA",	
+            "points":"8"
+        },
+        {
+            "pos":23,
+            "name":"Michele PIRRO",
+            "bike":"Ducati",
+            "nation":"ITA",	
+            "points":"4"
+        }
+    ]
+}

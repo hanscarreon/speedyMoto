@@ -1,0 +1,46 @@
+{
+    "news":[
+        {
+            "id":1,
+            "title":"Can MotorLand give us a magic number eight?",
+            "subTitle": "After seven winners, we arrive at Aragon with an empty throne. A new winner at the track is guaranteed, but can it be the eighth this year?",
+            "desc":"After a dramatic, at times chaotic but always entertaining French GP, it’s time for the paddock to saddle up and head for the very different MotorLand Aragon. An outpost of speed in rural Teruel, the backdrop is a very different one to that of Le Mans – and so is the track. With Marc Marquez (Repsol Honda Team), Dani Pedrosa, Jorge Lorenzo and Casey Stoner the only riders to have won at the venue, we’ll have a new rider on the top step. But will it be a new winner in 2020? Or a first timer? We’re about to find out…",
+            "source": "motogp.com"
+        },
+        {
+            "id":2,
+            "title":"Vietti and Arbolino aim to gain more ground in Aragon",
+            "subTitle": "The Moto3™ title fight now sees four riders in 20 points... and another 25 in play at MotorLand",
+            "desc":"Another race, another Moto3™ rollercoaster and another throw of the dice in Le Mans sees the Moto3™ Championship heading into the Gran Premio Michelin® de Aragon looking a little spicier than it did just a week ago. For one, home hero Albert Arenas (Solunion Aspar Team Moto3) is back on top after a podium saw him hit back against Ai Ogura (Honda Team Asia), and for two... the three men behind them all had another shuffle.",
+            "source":"motogp.com"
+        },
+        {
+            "id":3,
+            "title":"Canet undergoes successful finger surgery",
+            "subTitle":"The Inde Aspar Team Moto2 rider suffered an open fracture-dislocation on his fifth left hand finger in Le Mans Warm Up",
+            "desc":"Inde Aspar Team Moto2’s Aron Canet has undergone successful surgery on an open fracture-dislocation of the two interphalangeal joints of the fifth finger of the left hand, sustained in a Warm Up crash at the SHARK Helmets Grand Prix de France.",
+            "source":"Inde Aspar Team Moto2"
+        },
+        {
+            "id":4,
+            "title":"Can Lowes keep the momentum at MotorLand?",
+            "subTitle":"The Brit just won for the first time since 2016, when he last did it at… you guessed it! Aragon. And now he’s only an apt 22 points off...",
+            "desc":"Since the season re-started in Jerez, it’s been a bit of an Italian invasion in the Moto2™ class. And, despite a tougher race last time out, it remains Luca Marini (Sky Racing Team VR46) on top in the standings – with Enea Bastianini (Italtrans Racing Team) now just 15 points down and Marco Bezzecchi (Sky Racing Team VR46) only a further five. But the man with the momentum and the winner last time out, Sam Lowes (EG 0,0 Marc VDS), now arrives at a venue that’s treated him well – and he’s looking to continue his roll.",
+            "source":"motogp.com"
+        },
+        {
+            "id":5,
+            "title":"Michelin to take top billing at the Gran Premio de Aragon",
+            "subTitle":"Official tyre supplier to both MotoGP™ and MotoE™ set to title sponsor the first MotoGP™ event at MotorLand Aragon in 2020",
+            "desc": "Dorna Sports is delighted to announce MotoGP™ and FIM Enel MotoE™ World Cup tyre supplier Michelin as title sponsor for the Gran Premio de Aragon in 2020, giving the French marque top billing at the event for the second year running. The Grand Prix, which takes place from the 16th to the 18th of October, will therefore be named the Gran Premio Michelin® de Aragon. Michelin have been the official tyre supplier to the premier class of Grand Prix motorcycle racing since 2016, a collaboration that has created some of the closest racing ever seen in MotoGP™ – with records smashed and margins narrowed in an era of amazing competition. More history has been in the making since 2019 as the legendary tyre marque became the official tyre supplier to the FIM Enel MotoE™ World Cup, once again proving a partner synonymous with both incredible performance and impressive reliability. Michelin are also a vital part of the MotoGP™ eSport Championship, having been a founding partner of the series since  its inception in 2017. This new title sponsor agreement serves to add another vital facet to a relationship between MotoGP™ and Michelin that has been defined by shared success. Matthew Ye, Senior Vice President Business Line 2 Wheels Worldwide: Michelin has been a partner for the MotoGP World Championship since 2016, with racing at the heart of Michelin Group DNA since our company foundation.  Continuing our involvement with the ‘Gran Premio Michelin de Aragón’ for 2020  as title sponsor is a strong testimonial of our passion for competition.The purpose of our commitments in motorsport is to take its technologies forward and provide all riders with the very best products.  This year we see a comprehensive new number of Michelin hypersport tyre ranges benefiting from the winning technologies.  Biking enthusiasts now have more opportunity with our new products MICHELIN Power 5 & MICHELIN Power GP, inspired by Motorsport.Pau Serracanta, Managing Director at Dorna Sports Michelin have been a vital partner for the MotoGP World Championship since 2016, as well as MotoE and MotoGP eSport thereafter, and are a foundation of the incredible boom the sport is enjoying. It makes us very happy to be able to add another agreement to our partnership and to see Michelin lend their name to what is sure to be another spectacular event at the uniquely beautiful MotorLand Aragon.",
+            "source": "motogp.com"
+        },
+        {
+            "id":6,
+            "title":"Beaubier clinches fifth MotoAmerica Superbike title",
+            "subTitle":"Bobby Fong and Lorenzo Zanetti took victories in Indianapolis as the Yamaha man was crowned king at the Brickyard",
+            "desc":"Three things of note jump out after a three-HONOS Superbike race weekend at Indianapolis Motor Speedway: for starters, Italian Lorenzo Zanetti ended a winless drought for Ducati in AMA Superbike racing that dated back to 2010. Then there was Bobby Fong’s arrival as a bonafide MotoAmerica Superbike star with a weekend that saw him win two races and finish second in the only one he didn’t win. And it all wrapped up with the bow on top being the fact that Cameron Beaubier emerged from a somewhat difficult weekend with a fifth MotoAmerica Superbike Championship in his back pocket. For the first time all season, Monster Energy Attack Performance Yamaha’s Beaubier wasn’t the dominant force at Indy. With the weight of trying to put the championship on ice in the penultimate round, Beaubier had some struggles. He crashed out of Saturday’s race one and it put a visible dent in his confidence for Sunday’s two races. Even with the pressure, he persevered and finished on the podium in both races – third in race two and second in race three. With that, he takes an insurmountable 97-point lead to WeatherTech Raceway Laguna Seca in two weeks where he hopes to return to his winning ways in an attempt to match Josh Hayes’ 16-win season from 2012.",
+            "source":"MotoAmerica"
+        }
+    ]
+}

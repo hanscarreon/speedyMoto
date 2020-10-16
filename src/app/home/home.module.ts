@@ -1,3 +1,4 @@
+import { SideMenuComponent } from './../component/side-menu/side-menu.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
@@ -14,6 +15,10 @@ import { HomePageRoutingModule } from './home-routing.module';
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage]
+  declarations: [
+    HomePage,
+    SideMenuComponent
+    
+  ]
 })
 export class HomePageModule {}
