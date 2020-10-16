@@ -1,3 +1,4 @@
+import { SideMenuComponent } from './../component/side-menu/side-menu.component';
 import { RidersListComponent } from './riders-list/riders-list.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -23,7 +24,8 @@ import { MatStepperModule } from '@angular/material/stepper';
   ],
   declarations: [
     RidersPage,
-    RidersListComponent
+    RidersListComponent,
+    SideMenuComponent
   ]
 })
 export class RidersPageModule {}

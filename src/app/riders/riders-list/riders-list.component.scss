@@ -4,6 +4,7 @@ ion-toolbar{
   padding: 15px 0;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
+  box-shadow: 1px 5px 8px 2px #000000;
 }
 ion-header{
   background: #c80502;
@@ -32,8 +33,8 @@ ion-header{
 }
 ion-content{
   --background: linear-gradient(0deg, rgba(53,53,53,1) 0%, rgba(200,5,2,1) 100%);
-
 }
+
 
 ion-card{
     // --background-color: transparent;
