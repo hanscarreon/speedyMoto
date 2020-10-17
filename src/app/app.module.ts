@@ -14,6 +14,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import {MatExpansionModule} from '@angular/material/expansion';
 
+import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
 @NgModule({
   declarations: [
@@ -27,7 +31,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
     HttpClientModule,
     NgbModule,
     BrowserAnimationsModule,
-    MatExpansionModule
+    MatExpansionModule,
+    FontAwesomeModule
     
   ],
   providers: [
@@ -37,4 +42,9 @@ import {MatExpansionModule} from '@angular/material/expansion';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule {
+
+  constructor(library: FaIconLibrary) { 
+		library.addIconPacks(fas, fab, far);
+	}
+}

@@ -6,31 +6,22 @@
 <ion-grid>
   <ion-row class="ion-align-items-center ion-text-center">
     <ion-col (click)="navigationRoute('riders')"  size="4">
-      <ion-card >
-        <img  src="/assets/icon/mot.png">
-      </ion-card>
+        <img  src="/assets/icon/mot2.png">
     </ion-col>
-    <ion-col size="4">
-      <ion-card>
-        <img src="/assets/icon/cal.png">
-      </ion-card>
+    <ion-col size="4" (click)="navigationRoute('guide')">
+        <img src="/assets/icon/cal2.png">
     </ion-col>
-    <ion-col size="4">
-      <ion-card>
-        <img src="/assets/icon/cam.png">
-      </ion-card>
+    <ion-col size="4"  (click)="navigationRoute('result')" >
+        <img src="/assets/icon/cam2.png">
     </ion-col>
+  
     <!-- /. items above -->
     <ion-col size="2"></ion-col>
-    <ion-col size="4">
-      <ion-card>
-        <img src="/assets/icon/flag.png">
-      </ion-card>
+    <ion-col size="4"  (click)="navigationRoute('news')"  >
+        <img src="/assets/icon/flag2.png">
     </ion-col>
-    <ion-col size="4">
-      <ion-card >
-        <img src="/assets/icon/holder.jpg">
-      </ion-card>
+    <ion-col size="4" >
+        <img src="/assets/icon/wheel2.png">
     </ion-col>
     <ion-col size="2"></ion-col>
     <!-- /. items below -->

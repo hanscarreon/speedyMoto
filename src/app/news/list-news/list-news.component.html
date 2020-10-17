@@ -1,8 +1,35 @@
-<ion-header>
+<app-side-menu></app-side-menu>
+<div class="ion-page" id="main-content">
+<ion-header class="ion-no-border">
   <ion-toolbar>
-    <ion-buttons slot="end">
+    <ion-buttons slot="primary">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>Inbox</ion-title>
+    <ion-title class="header-title">Speedy Motor</ion-title>
   </ion-toolbar>
 </ion-header>
+  <ion-content class="ion-padding">
+
+
+    <ion-slides [options]="sliderOpt"   #slides (ionSlidesDidLoad)="slideChanged(slides)"  (ionSlideDidChange)="slideChanged(slides)">
+      <ion-slide *ngFor="let data of newsData; index as i">
+        <ion-card><img src="http://speedymoto.tindahans.online/news/{{data.id}}.jpg"> </ion-card>
+      </ion-slide>
+    </ion-slides>
+
+    <div *ngFor="let data of newsData;index as i">
+      <ion-card *ngIf="activeIndex == i">
+       <ion-card-header>
+         <ion-card-title>{{data.title}}</ion-card-title>
+         <ion-card-subtitle>{{data.subTitle}}</ion-card-subtitle>
+         <small><fa-icon icon="copyright"></fa-icon> {{ data.source }}</small>
+       </ion-card-header> 
+       <ion-card-content>
+         <p>{{data.desc}}  </p>
+       </ion-card-content>
+      </ion-card>
+    </div>
+  </ion-content>
+
+ 
+</div>

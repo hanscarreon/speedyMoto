@@ -18,4 +18,10 @@ export class ApiService {
   openMenu(){
   return   this.menu.open('end');
   }
+  getNews(){
+    return this.http.get<any>('assets/json/news.json')
+  }
+  getRsult(){
+    return this.http.get<any>('assets/json/result.json')
+  }
 }

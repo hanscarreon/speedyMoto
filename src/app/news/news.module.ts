@@ -1,3 +1,5 @@
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ListNewsComponent } from './list-news/list-news.component';
 import { SideMenuComponent } from './../component/side-menu/side-menu.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -14,11 +16,13 @@ import { NewsPage } from './news.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    NewsPageRoutingModule
+    NewsPageRoutingModule,
+    FontAwesomeModule
   ],
   declarations: [
     NewsPage,
-    SideMenuComponent
+    SideMenuComponent,
+    ListNewsComponent
 
   ]
 })

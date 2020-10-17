@@ -30,3 +30,13 @@
     font-family: "Dodger";
     src: url('./assets/fonts/Dodgv2i.ttf') 
 }
+
+@font-face{
+    font-family: "Georgia";
+    src: url('./assets/fonts/georgia.woff') format('woff') 
+}
+@font-face{
+    font-family: "Simhei";
+    src: url('./assets/fonts/SimHei.ttf'),
+         url('./assets/fonts/chinese.simhei.ttf')
+}
