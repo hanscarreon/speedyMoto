@@ -1,3 +1,4 @@
+import { LoadingController } from '@ionic/angular';
 import { ApiService } from './../../service/api.service';
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
@@ -13,10 +14,13 @@ export class RidersListComponent implements OnInit {
 
   constructor(
     private dataApi : ApiService,
-    private http: HttpClient
+    private http: HttpClient,
+    private loadingController: LoadingController
+
   ) { }
 
   ngOnInit() {
+    this.showLoader()
     this.readRiders();
   }
   
@@ -25,6 +29,9 @@ export class RidersListComponent implements OnInit {
     this.dataApi.getRiders().subscribe((data)=>{
         this.riders = data.riders
         console.log(data.riders)
+        if(data){
+          setTimeout(()=>{ this.hideLoader() },1000)
+        }
     })
   }
 
@@ -39,5 +46,28 @@ export class RidersListComponent implements OnInit {
     //   .map(item => item.open = false);
     // }
   }
+
+  showLoader() {
+
+    this.loadingController.create({
+      message: 'Please wait...'
+    }).then((res) => {
+      res.present();
+    });
+
+  }
+  // Show the loader for infinite time
+
+  hideLoader() {
+
+    this.loadingController.dismiss().then((res) => {
+      console.log('Loading dismissed!', res);
+    }).catch((error) => {
+      console.log('error', error);
+    });
+  }
+  // Hide the loader if already created otherwise return error
+
+
 
 }

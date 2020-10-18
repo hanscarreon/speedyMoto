@@ -1,3 +1,4 @@
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SideMenuComponent } from './../component/side-menu/side-menu.component';
 import { GuideListComponent } from './guide-list/guide-list.component';
 import { NgModule } from '@angular/core';
@@ -15,7 +16,8 @@ import { GuidePage } from './guide.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    GuidePageRoutingModule
+    GuidePageRoutingModule,
+    FontAwesomeModule
   ],
   declarations: [
     GuidePage,
