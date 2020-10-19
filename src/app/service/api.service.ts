@@ -13,7 +13,7 @@ export class ApiService {
   ) { }
 
   getRiders(){
-    return this.http.get<any>('http://speedymoto.tindahans.online/riders.json')
+    return this.http.get<any>('/assets/json/riders.json')
   }
   openMenu(){
   return   this.menu.open('end');

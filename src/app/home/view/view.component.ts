@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { LoadingController } from '@ionic/angular';
+import { LoadingController, NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-view',
@@ -11,14 +11,16 @@ export class ViewComponent implements OnInit {
 
   constructor(
     private router : Router,
-    private loadingController: LoadingController
+    private loadingController: LoadingController,
+    private nav: NavController
   ) { }
 
   ngOnInit() {}
 
   navigationRoute(route){
     // this.nav.navigateForward([route])
-    this.router.navigate([route])
+    // this.router.navigate([route])
+    this.nav.navigateForward([route])
   }
  
   async realoadData() {

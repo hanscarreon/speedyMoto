@@ -34,7 +34,7 @@ sliderOpt = {
     this.dataApi.getNews().subscribe((data)=>{
       this.newsData = data.news;
       if(data){
-        setTimeout(()=>{ this.showLoader() },1000)
+        setTimeout(()=>{ this.hideLoader() },1000)
       }
       console.log(data.news);
     })
